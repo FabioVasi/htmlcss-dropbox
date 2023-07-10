@@ -135,7 +135,7 @@ h2{
     margin-top: 50px;
 }
 .card{
-    height: 1050px;
+    height: 1000px;
     border-top: 2px solid lightgrey;
     border-bottom: 2px solid lightgrey;
     border-left: 1px solid lightgrey;
@@ -160,7 +160,7 @@ h3{
     padding-bottom: 3rem;
 }
 .description{
-    padding-left: 1rem;
+    
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
@@ -169,16 +169,18 @@ h3{
 }
 .gratis{
     text-align: left;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 .start-proof{
     border: none;
+    width: 220px;
+    text-align: center;
     color: #ffffff;
     background-color: #0061ff;
     padding: 1rem 2rem;
     display: block;
-    margin-bottom: 1.50rem;
+    margin: 1rem auto;
 }
 hr{
     width: 50px;
@@ -224,18 +226,30 @@ li{
 /* section 2 end */
 /* section 3 start */
 .third{
-
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 .mate{
-    padding-top: 100px;
     width: 700px;
 }
 .contact{
-    padding-top: 150px;
+    padding-top: 50px;
     padding-left: 3rem;
     font-size: 2rem;
 }
-
+.dropbox_partner{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+.socio{
+    text-decoration: none;
+    margin-left: 3rem;
+    font-size: 1.25rem;
+    padding: 1rem 1.5rem;
+    background-color: #ffffff;
+}
 
 
 
