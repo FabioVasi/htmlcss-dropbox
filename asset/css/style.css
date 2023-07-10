@@ -27,11 +27,13 @@ body{
 }
 
 
+/* header start */
 header{
     height: 80px;
     display: flex;
     justify-content: space-between;
 }
+/* navigation menu start */
 .left{
     text-align: left;
     width: 50%;
@@ -59,13 +61,63 @@ header{
     background-color: #0061ff;
     padding: 0.5rem 1rem;
 }
+/* navigation menu end */
+
+/* header end */
 
 
+
+/* main start */
 main{
-    background-color: green;
-    height: 1600px;
+    
 }
+.first{
+    background-color: #b4d0e7;
+    height: 650px;
+}
+.container{
+    margin: 0 auto;
+    padding-top: 4rem;
+    max-width: 1170px;
+    width: 100%;
+}
+h1{
+    font-size: 5rem;
+    padding-bottom: 2.50rem;
+}
+.row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-prova{
+    width: 40%;
+}
+.business{
+    padding-bottom: 2rem;
+    padding-right: 2rem;
+}
+.annulla{
+    border: none;
+    background-color: #b4d0e7;
+    padding-left: 7.5px;
+    padding-bottom: 4rem;
+}
+.arrow{
+    font-size: 2.50rem;
+}
+
+
+
+.col-proposta{
+    width: 60%;
+}
+.jumbo{
+    height: 400px;
+}
+
+
+
 footer{
-    background-color: blue;
     height: 500px;
 }
