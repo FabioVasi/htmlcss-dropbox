@@ -323,6 +323,21 @@ p{
     height: 400px;
     background-color: #0093ce;
 }
+.topps{
+    width: 400px;
+    height: 400px;
+    background-color: #ff1c1c;
+}
+.planet{
+    width: 400px;
+    height: 400px;
+    background-color: #0d2481;
+}
+.channel{
+    width: 400px;
+    height: 400px;
+    background-color: #ffd830;
+}
 /* section 5 end */
 footer{
     height: 500px;
