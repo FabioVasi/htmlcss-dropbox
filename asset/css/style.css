@@ -72,7 +72,7 @@ header{
 main{
     
 }
-/* sectio 1 start */
+/* section 1 start */
 .first{
     background-color: #b4d0e7;
     height: 650px;
@@ -91,6 +91,7 @@ h1{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 .col-prova{
     width: 40%;
@@ -115,8 +116,8 @@ h1{
 .jumbo{
     height: 400px;
 }
-/* sectio 1 end */
-/* sectio 2 start */
+/* section 1 end */
+/* section 2 start */
 .second{
     padding-top: 6rem;
 }
@@ -130,9 +131,8 @@ h2{
     padding-right: 3rem;
 }
 .col-4{
-    width: calc(100% / 12 * 4);
+    width: calc(100% / 12 * 4 - 20px);
     margin-top: 50px;
-    padding-right: 30px;
 }
 .card{
     height: 1050px;
@@ -201,7 +201,7 @@ li{
     color: #0061ff;
 }
 .col-full{
-    width: 100%;
+    width: 1170px;
 }
 .card-end{
     height: 300px;
@@ -221,6 +221,22 @@ li{
     padding-bottom: 1rem;
     padding-left: 1rem;
 }
+/* section 2 end */
+/* section 3 start */
+.third{
+
+}
+.mate{
+    padding-top: 100px;
+    width: 700px;
+}
+.contact{
+    padding-top: 150px;
+    padding-left: 3rem;
+    font-size: 2rem;
+}
+
+
 
 
 footer{
