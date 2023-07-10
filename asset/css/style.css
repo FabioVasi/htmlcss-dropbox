@@ -303,10 +303,18 @@ p{
 .card-bottom{
     width: 800px;
     height: 800px;
-    padding-top: 3rem;
-    padding-left: 3rem;
+    padding-top: 4rem;
+    padding-left: 4rem;
     text-align: left;
     background-color: #f5f5f5;
+}
+.membri{
+    padding-top: 4rem;
+    padding-right: 4rem;
+}
+.citazione{
+    padding-top: 4rem;
+    padding-right: 3rem;
 }
 .bicycle{
     width: 400px;
@@ -339,6 +347,32 @@ p{
     background-color: #ffd830;
 }
 /* section 5 end */
+/* section 6 start */
+.sixth{
+    background-color: #b4d0e7;
+    display: flex;
+    align-items: center;
+    height: 400px;
+}
+.integra{
+    font-size: 3rem;
+    color: #61082b;
+    width: 50%;
+    text-align: center;
+}
+.gratuito{
+    width: 50%;
+    text-align: center;
+}
+.inizia{
+
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    background-color: #ffffff;
+    border: none;
+}
+/* section 6 end */
 footer{
     height: 500px;
 }
