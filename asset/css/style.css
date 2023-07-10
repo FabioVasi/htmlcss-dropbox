@@ -399,5 +399,37 @@ p{
 }
 /* section 7 end */
 footer{
-    height: 500px;
+    background-color: #000000;
+}
+.row-top-footer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 100px;
+}
+.col-top-footer{
+    width: 20%;
+}
+.card-top-footer{
+    color: #ffffff;
+}
+.end-info{
+    font-size: 24px;
+}
+.more{
+    color: #ffffff;
+    text-decoration: none;
+}
+.language{
+    width: 150px;
+    color: #999999;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-top: 1px solid #ffffff;
+}
+.earth{
+    fill: #999999;
+    font-size: 16px;
+    padding: 0 6px;
 }
