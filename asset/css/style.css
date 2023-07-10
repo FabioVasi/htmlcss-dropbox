@@ -71,6 +71,7 @@ header{
 main{
     
 }
+/* sectio 1 start */
 .first{
     background-color: #b4d0e7;
     height: 650px;
@@ -93,7 +94,7 @@ h1{
 .col-prova{
     width: 40%;
 }
-.business{
+.dropbox{
     padding-bottom: 2rem;
     padding-right: 2rem;
 }
@@ -107,15 +108,26 @@ h1{
     font-size: 2.50rem;
 }
 
-
-
 .col-proposta{
     width: 60%;
 }
 .jumbo{
     height: 400px;
 }
-
+/* sectio 1 end */
+/* sectio 2 start */
+.second{
+    padding-top: 6rem;
+}
+h2{
+    font-size: 2.50rem;
+}
+.radio{
+    
+}
+.fatturazione{
+    padding-right: 3rem;
+}
 
 
 footer{
