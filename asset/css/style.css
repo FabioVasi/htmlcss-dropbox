@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 :root{
     --bg-button: #0061ff;
     --bg-section: #b4d0e7;
@@ -21,35 +20,38 @@
     --bg-lonely: #0d2481;
     --bg-clear: #ffd830;
 }
-
 body{
     font-family: 'Open Sans', sans-serif;
+    min-width: 1440px;
 }
-
-
 /* header start */
 header{
     height: 80px;
     display: flex;
+    position: sticky;
     justify-content: space-between;
+    box-shadow: 0 0 5px 0 black;
 }
 /* navigation menu start */
 .left{
     text-align: left;
     width: 50%;
+    height: 80px;
     display: flex;
     align-items: center;
 }
-.logo{
-    padding: 1rem;
+.menu:hover{
+    border-bottom: 5px solid black;
 }
 .menu{
     text-decoration: none;
     color: black;
-    padding: 1rem;
+    font-size: 20px;
+    padding: 24px 1rem;
 }
 .right{
     width: 50%;
+    height: 80px;
     display: flex;
     padding-right: 1rem;
     justify-content: end;
@@ -60,17 +62,17 @@ header{
     border: none;
     color: #ffffff;
     background-color: #0061ff;
-    padding: 0.5rem 1rem;
+    padding: 5px 5px;
+}
+.start:hover{
+    background-color: #0090ff;
 }
 /* navigation menu end */
-
 /* header end */
-
-
-
 /* main start */
 main{
-    
+    height: calc(100vh - 80px);
+    overflow: auto;
 }
 /* section 1 start */
 .first{
@@ -109,7 +111,6 @@ h1{
 .arrow{
     font-size: 2.50rem;
 }
-
 .col-proposta{
     width: 60%;
 }
@@ -146,7 +147,6 @@ h2{
     text-align: center;
     padding-bottom: 1rem;
     border-bottom: 2px solid lightgrey;
-    
 }
 h3{
     font-size: 1.75rem;
@@ -155,8 +155,7 @@ h3{
 .prezzi{
     padding: 0.5rem 0;
 }
-.mese{
-    
+.mese{ 
     padding-top: 0.5rem;
     padding-bottom: 3rem;
 }
@@ -390,7 +389,6 @@ p{
     text-align: center;
 }
 .inizia{
-
     padding: 1rem 2rem;
     font-size: 1.5rem;
     text-decoration: none;
@@ -420,9 +418,11 @@ p{
     padding-left: 400px;
 }
 /* section 7 end */
+/* footer start */
 footer{
     background-color: #000000;
 }
+/* top-footer start */
 .row-top-footer{
     width: 100%;
     display: flex;
@@ -455,3 +455,5 @@ footer{
     font-size: 16px;
     padding: 0 6px;
 }
+/* top-footer end */
+/* footer end */
