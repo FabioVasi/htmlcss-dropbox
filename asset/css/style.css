@@ -249,14 +249,20 @@ li{
     border-left: 1px solid lightgrey;
     border-right: 1px solid lightgrey;
 }
-.ufficio{
-    margin-left: 1rem;
+.enterprice{
+    padding-left: 1rem;
+}
+.prezzi{
+    padding-left: 1rem;
+    padding-bottom: 50px; 
+}
+.vendite{
     position: relative;
-    left: 920px;
-    bottom: 100px;
+    left: 850px;
+    bottom: 135px;
 }
 .soluzioni{
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
     padding-left: 1rem;
 }
 /* section 2 end */
@@ -275,16 +281,22 @@ li{
 }
 .dropbox_partner{
     padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-bottom: 3rem;
     padding-left: 3rem;
     padding-right: 3rem;
 }
 .socio{
     text-decoration: none;
+    border: 1px solid black;
+    color: #000000;
     margin-left: 3rem;
     font-size: 1.25rem;
+    font-weight: 500;
     padding: 1rem 1.5rem;
     background-color: #ffffff;
+}
+.socio:hover{
+    filter: invert(100%);
 }
 /* section 3 end */
 /* section 4 start */
@@ -430,9 +442,14 @@ p{
 .inizia{
     padding: 1rem 2rem;
     font-size: 1.5rem;
+    font-weight: 500;
     text-decoration: none;
+    color: #000000;
     background-color: #ffffff;
     border: none;
+}
+.inizia:hover{
+    filter: invert(100%);
 }
 /* section 6 end */
 /* section 7 start */
