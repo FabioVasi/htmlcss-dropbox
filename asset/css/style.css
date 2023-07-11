@@ -67,6 +67,12 @@ header{
 .start:hover{
     background-color: #0090ff;
 }
+.style{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
+}
 /* navigation menu end */
 /* header end */
 /* main start */
@@ -105,11 +111,23 @@ h1{
 .annulla{
     border: none;
     background-color: #b4d0e7;
-    padding-left: 7.5px;
     padding-bottom: 2rem;
+}
+.delete:hover{
+    background-color: white;
+    color: #666666;
+}
+.delete{
+    color: #000000;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
 }
 .arrow{
     font-size: 2.50rem;
+}
+.arrow:active{
+    
 }
 .col-proposta{
     width: 60%;
