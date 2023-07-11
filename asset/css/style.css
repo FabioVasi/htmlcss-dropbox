@@ -292,16 +292,22 @@ p{
     height: 424px;
     background-color: #a2d39b;
     border: 20px solid #d1e9cd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .stemma{
     text-align: center;
     width: 200px;
-    fill: white;
+    filter: invert(100%);
 }
 .arizona{
     width: 424px;
     height: 424px;
     background-color: #61082b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .card-bottom{
     width: 848px;
@@ -323,31 +329,49 @@ p{
     width: 424px;
     height: 424px;
     background-color: #d5001f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .hearst{
     width: 424px;
     height: 424px;
     background-color: #b4d0e7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .florida{
     width: 424px;
     height: 424px;
     background-color: #0093ce;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .topps{
     width: 424px;
     height: 424px;
     background-color: #ff1c1c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .planet{
     width: 424px;
     height: 424px;
     background-color: #0d2481;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .channel{
     width: 424px;
     height: 424px;
     background-color: #ffd830;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /* section 5 end */
 /* section 6 start */
