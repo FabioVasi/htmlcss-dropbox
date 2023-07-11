@@ -238,6 +238,7 @@ li{
 }
 .card-end{
     height: 30  0px;
+    padding: 20px;
     margin-top: 50px;
     border-top: 2px solid lightgrey;
     border-bottom: 2px solid lightgrey;
@@ -250,25 +251,21 @@ li{
     align-items: center;
 }
 .enterprice{
-    padding-left: 1rem;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     width: 50%;
 }
-.prezzi{
-    padding-left: 1rem; 
+.prezzi{ 
     padding-bottom: 2rem;
     padding-top: 0;
 }
 .vendite{
     width: 50%;
     text-align: end;
-    padding: 1rem;
 }
 .soluzioni{
     padding-top: 2rem;
     padding-bottom: 2rem;
-    padding-left: 1rem;
 }
 /* section 2 end */
 /* section 3 start */
@@ -331,7 +328,7 @@ p{
     padding-bottom: 4rem;
 }
 .link{
-    padding-right: 1000px;
+    text-align: center;
     padding-bottom: 100px;
 }
 .col-4-flex{
@@ -383,10 +380,12 @@ p{
 .membri{
     padding-top: 4rem;
     padding-right: 4rem;
+    padding-bottom: 4rem;
 }
 .citazione{
-    padding-top: 4rem;
-    padding-right: 3rem;
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
 }
 .bicycle{
     display: flex;
