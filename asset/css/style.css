@@ -62,7 +62,7 @@ header{
     border: none;
     color: #ffffff;
     background-color: #0061ff;
-    padding: 5px 5px;
+    padding: 5px 8px;
 }
 .start:hover{
     background-color: #0090ff;
@@ -71,7 +71,6 @@ header{
     color: white;
     text-decoration: none;
     font-size: 20px;
-    padding: 5px;
 }
 /* navigation menu end */
 /* header end */
@@ -83,7 +82,7 @@ main{
 /* section 1 start */
 .first{
     background-color: #b4d0e7;
-    height: 650px;
+    height: 660px;
 }
 .container{
     margin: 0 auto;
@@ -114,8 +113,8 @@ h1{
     padding-bottom: 2rem;
 }
 .delete:hover{
-    background-color: white;
-    color: #666666;
+    background-color: #000000;
+    color: #ffffff;
 }
 .delete{
     color: #000000;
@@ -133,7 +132,7 @@ h1{
     width: 60%;
 }
 .jumbo{
-    height: 400px;
+    height: 420px;
 }
 /* section 1 end */
 /* section 2 start */
@@ -145,6 +144,22 @@ h2{
 }
 .facturation{
     padding-top: 50px;
+}
+.radio{
+    appearance: none;
+    border: 3px #0090ff solid;
+    border-radius: 50%;
+    width: 1.15em;
+    height: 1.15em;
+    border-radius: 50%
+}
+.circle{
+    appearance: none;
+    border: 2px lightgray solid;
+    border-radius: 50%;
+    width: 1.15em;
+    height: 1.15em;
+    border-radius: 50%
 }
 .fatturazione{
     padding-right: 3rem;
@@ -186,19 +201,25 @@ h3{
     padding-left: 8px;
 }
 .gratis{
+    margin-top: 2rem;
     text-align: left;
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
-.start-proof{
-    border: none;
-    width: 220px;
-    text-align: center;
-    color: #ffffff;
+.compra{
+    text-decoration: none;
+    color: white;
     background-color: #0061ff;
+    text-align: center;
+    font-size: 20px;
+    width: 300px;
     padding: 1rem 2rem;
-    display: block;
-    margin: 1rem auto;
+}
+.compra:hover{
+    background-color: #0090ff;
+}
+.oppure{
+    padding-top: 2rem;
 }
 hr{
     width: 50px;
