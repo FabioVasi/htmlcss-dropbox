@@ -22,7 +22,6 @@
 }
 body{
     font-family: 'Open Sans', sans-serif;
-    min-width: 1440px;
 }
 /* header start */
 header{
@@ -76,8 +75,7 @@ header{
 /* header end */
 /* main start */
 main{
-    height: calc(100vh - 80px);
-    overflow: auto;
+    
 }
 /* section 1 start */
 .first{
@@ -193,7 +191,6 @@ h3{
     padding-bottom: 3rem;
 }
 .description{
-    
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
@@ -242,26 +239,36 @@ li{
     width: 1170px;
 }
 .card-end{
-    height: 300px;
+    height: 30  0px;
     margin-top: 50px;
     border-top: 2px solid lightgrey;
     border-bottom: 2px solid lightgrey;
     border-left: 1px solid lightgrey;
     border-right: 1px solid lightgrey;
 }
+.ufficio{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 .enterprice{
     padding-left: 1rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    width: 50%;
 }
 .prezzi{
-    padding-left: 1rem;
-    padding-bottom: 50px; 
+    padding-left: 1rem; 
+    padding-bottom: 2rem;
+    padding-top: 0;
 }
 .vendite{
-    position: relative;
-    left: 850px;
-    bottom: 135px;
+    width: 50%;
+    text-align: end;
+    padding: 1rem;
 }
 .soluzioni{
+    padding-top: 2rem;
     padding-bottom: 2rem;
     padding-left: 1rem;
 }
