@@ -148,11 +148,10 @@ h2{
 }
 .radio{
     appearance: none;
-    border: 3px #0090ff solid;
+    border: 4px #0061ff solid;
     border-radius: 50%;
     width: 1.15em;
     height: 1.15em;
-    border-radius: 50%
 }
 .circle{
     appearance: none;
@@ -160,7 +159,6 @@ h2{
     border-radius: 50%;
     width: 1.15em;
     height: 1.15em;
-    border-radius: 50%
 }
 .fatturazione{
     padding-right: 3rem;
@@ -186,8 +184,8 @@ h3{
     font-size: 1.75rem;
     padding: 2rem 0;
 }
-.prezzi{
-    padding: 0.5rem 0;
+.costo{
+    padding-bottom: 2rem;
 }
 .mese{ 
     padding-top: 0.5rem;
@@ -337,7 +335,7 @@ p{
 }
 .link{
     padding-right: 1000px;
-    padding-bottom: 4rem;
+    padding-bottom: 100px;
 }
 .col-4-flex{
     display: flex;
@@ -474,13 +472,13 @@ p{
     float: right;
     margin-right: 1rem;
 }
-.chevron:hover .lorem{
+.chevron:hover{
     rotate: calc(180deg);
 }
 .lorem{
     font-weight: normal;
     padding-top: 2rem;
-    display: none;
+    
 }
 /* section 7 end */
 /* footer start */
