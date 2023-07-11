@@ -28,6 +28,9 @@ header{
     height: 80px;
     display: flex;
     position: sticky;
+    left: 0;
+    top: 0;
+    background-color: #ffffff;
     justify-content: space-between;
     box-shadow: 0 0 5px 0 black;
 }
@@ -325,9 +328,8 @@ p{
 }
 .container-collaboratori{
     text-align: center;
-    width: 2543px;
+    width: 100%;
     margin: 0 auto;
-
 }
 .squad{
     font-size: 3rem;
@@ -340,33 +342,44 @@ p{
 .col-4-flex{
     display: flex;
     width: calc(100% / 12 * 4);
-    height: 424px;
 }
-.designit{
-    width: 424px;
-    height: 424px;
-    background-color: #a2d39b;
-    border: 20px solid #d1e9cd;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.col-2-flex{
+    width: 50%;
 }
 .stemma{
-    text-align: center;
     width: 200px;
     filter: invert(100%);
 }
-.arizona{
-    width: 424px;
-    height: 424px;
-    background-color: #61082b;
+.designit{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #a2d39b;
+    border: 20px solid #d1e9cd;
+    aspect-ratio: 1/1;
+}
+.florida{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0093ce;
+    aspect-ratio: 1/1;
+}
+.arizona{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #61082b;
+    aspect-ratio: 1/1;
+}
+.topps{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff1c1c;
+    aspect-ratio: 1/1;
 }
 .card-bottom{
-    width: 848px;
-    height: 848px;
     padding-top: 4rem;
     padding-left: 4rem;
     text-align: left;
@@ -381,52 +394,32 @@ p{
     padding-right: 3rem;
 }
 .bicycle{
-    width: 424px;
-    height: 424px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #d5001f;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.hearst{
-    width: 424px;
-    height: 424px;
-    background-color: #b4d0e7;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.florida{
-    width: 424px;
-    height: 424px;
-    background-color: #0093ce;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.topps{
-    width: 424px;
-    height: 424px;
-    background-color: #ff1c1c;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    aspect-ratio: 1/1;
 }
 .planet{
-    width: 424px;
-    height: 424px;
-    background-color: #0d2481;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #0d2481;
+    aspect-ratio: 1/1;
+}
+.hearst{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b4d0e7;
+    aspect-ratio: 1/1;
 }
 .channel{
-    width: 424px;
-    height: 424px;
-    background-color: #ffd830;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #ffd830;
+    aspect-ratio: 1/1;
 }
 /* section 5 end */
 /* section 6 start */
@@ -478,15 +471,16 @@ p{
 }
 .chevron{
     font-size: 1rem;
-    padding-left: 400px;
+    float: right;
+    margin-right: 1rem;
 }
-.chevron:hover{
+.chevron:hover .lorem{
     rotate: calc(180deg);
 }
 .lorem{
     font-weight: normal;
     padding-top: 2rem;
-    
+    display: none;
 }
 /* section 7 end */
 /* footer start */
