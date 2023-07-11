@@ -135,7 +135,8 @@ h2{
     margin-top: 50px;
 }
 .card{
-    height: 1000px;
+    height: 1050px;
+    padding: 20px;
     border-top: 2px solid lightgrey;
     border-bottom: 2px solid lightgrey;
     border-left: 1px solid lightgrey;
@@ -143,7 +144,7 @@ h2{
 }
 .singolo-team-azienda{
     text-align: center;
-    padding: 0.5rem 0;
+    padding-bottom: 1rem;
     border-bottom: 2px solid lightgrey;
     
 }
@@ -152,10 +153,10 @@ h3{
     padding: 2rem 0;
 }
 .prezzi{
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0;
 }
 .mese{
-    padding-left: 1rem;
+    
     padding-top: 0.5rem;
     padding-bottom: 3rem;
 }
@@ -165,7 +166,7 @@ h3{
     padding-bottom: 1rem;
 }
 .vantaggi{
-    padding-left: 5px;
+    padding-left: 8px;
 }
 .gratis{
     text-align: left;
@@ -186,7 +187,6 @@ hr{
     width: 50px;
 }
 h4{
-    padding-left: 1rem;
     padding-top: 2rem;
     padding-bottom: 1rem;
 }
@@ -195,8 +195,6 @@ ul{
 }
 li{
     padding-top: 1.50rem;
-    padding-left: 1rem;
-
 }
 .check{
     font-weight: bold;
