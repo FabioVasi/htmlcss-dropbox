@@ -133,6 +133,8 @@ hr{
     padding-left: 430px;
 }
 .email{
+    display: block;
+    margin: 0 auto;
     height: 50px;
     width: 330px;
     border-radius: 10px;
@@ -141,4 +143,16 @@ hr{
 }
 .email:hover{
     border-color: #000000;
+}
+.bottone{
+    margin-top: 60px;
+    font-size: 1.5rem;
+    color: white;
+    background-color: #0060ff;
+    padding: 20px 100px;
+    border-radius: 10px;
+    border: none;
+}
+.bottone:hover{
+    background-color: #0040ff;
 }
