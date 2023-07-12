@@ -193,7 +193,7 @@ h3{
     padding-bottom: 1rem;
 }
 .vantaggi{
-    padding-left: 8px;
+    padding-left: 5px;
 }
 .gratis{
     margin-top: 2rem;
@@ -324,7 +324,7 @@ p{
     margin: 0 auto;
 }
 .squad{
-    font-size: 3rem;
+    font-size: 4rem;
     padding-bottom: 4rem;
 }
 .link{
@@ -341,6 +341,10 @@ p{
 .stemma{
     width: 200px;
     filter: invert(100%);
+}
+.stemma:hover{
+    width: 300px;
+    filter: grayscale(100%);
 }
 .designit{
     display: flex;
@@ -377,6 +381,10 @@ p{
     text-align: left;
     background-color: #f5f5f5;
 }
+.design:hover{
+    width: 500px;
+    filter: invert(25%);
+}
 .membri{
     padding-top: 4rem;
     padding-right: 4rem;
@@ -386,6 +394,11 @@ p{
     text-decoration: none;
     color: #000000;
     font-size: 20px;
+}
+.citazione:hover{
+    color: #0061ff;
+    font-size: 25px;
+    text-decoration: underline;
 }
 .bicycle{
     display: flex;
